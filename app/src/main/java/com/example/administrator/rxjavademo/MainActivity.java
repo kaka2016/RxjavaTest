@@ -178,7 +178,7 @@ public class MainActivity extends Activity {
          * 通过 map 操作符进行变换，返回Drawable对象，
          * 这个变换指的就是通过url进行网络图片请求，返回一个Drawable。
          * 所以简单的来说就是把String事件，转换为Drawable事件。
-         *改动一点点。。。。。。
+         *改动一点点。。。。。。。。。。
          */
         Observable.create(new Observable.OnSubscribe<String>() {
 
